@@ -12,10 +12,10 @@ section {
     box-sizing: border-box;
     background-color: cyan;
 }
-.card:nth-child(1) {
+/* .card:nth-child(1) {
     height: 200px;
-}
-.card:nth-child(2) {
+} */
+.card:nth-child(-n+2) {
     height: 200px;   
 }
 .card:last-child {
